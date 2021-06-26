@@ -78,13 +78,7 @@ function draw (){
 }
 
 
-function mousePressed() {
 
-  
-  //mouse_x_print=mouseX;
-
- 
-}
 
 function windowResized() {
   resizeCanvas(windowWidth, windowHeight);
