@@ -18,7 +18,7 @@ let wind_ubicacion_1;
 let wind_ubicacion_2;
 let wind_ubicacion_3;
 
-let timer_minutos=5
+let timer_minutos=5;
 
 
 var url_smn = "https://ws.smn.gob.ar/map_items/weather";
