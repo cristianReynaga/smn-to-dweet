@@ -18,6 +18,7 @@ let wind_ubicacion_1;
 let wind_ubicacion_2;
 let wind_ubicacion_3;
 
+let timer_minutos=5
 
 
 var url_smn = "https://ws.smn.gob.ar/map_items/weather";
@@ -57,7 +58,8 @@ function setup() {
   createCanvas(windowWidth, windowHeight);
   background(200);
   
-    setInterval(consultarAPI, 5000); //esta función es la que consulta datos cada 5000 milisegundos
+  
+  setInterval(consultarAPI, timer_minutos*1000*60); //esta función es la que consulta datos cada 5000 milisegundos
 
 }
 
